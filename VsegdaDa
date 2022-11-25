@@ -23,16 +23,11 @@
 			],
 			"request": {
 				"auth": {
-					"type": "basic",
-					"basic": [
+					"type": "bearer",
+					"bearer": [
 						{
-							"key": "password",
-							"value": "password123",
-							"type": "string"
-						},
-						{
-							"key": "username",
-							"value": "admin",
+							"key": "token",
+							"value": "{{token}}",
 							"type": "string"
 						}
 					]
